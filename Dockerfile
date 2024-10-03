@@ -8,4 +8,6 @@ RUN npm i
 
 COPY . .
 
+ENTRYPOINT [ "node", "data/script2.js" ]
+
 EXPOSE 3000
