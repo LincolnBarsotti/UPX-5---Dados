@@ -1,10 +1,14 @@
 FROM node:20-alpine
 
+FROM jupyter/base-notebook:latest
+
 WORKDIR  /tabelaincidentes
 
 COPY package*.json  ./
 
 RUN npm i
+RUN pip install openpyxl pandas
+ 
 
 COPY . .
 
