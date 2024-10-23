@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "strict": true,  // Enable strict type checking
+    "noImplicitAny": true,  // Detect 'any' type more strictly
+    "strictNullChecks": true  // Avoid null/undefined issues
+  }
+}
